@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+<style type="text/css">body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/ Estilo específico para desktop /
+@media (min-width: 768px) {
+    .jogos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+}
+
+/ Estilo específico para dispositivos móveis /
+@media (max-width: 767px) {
+    .jogos {
+        display: block;
+        padding: 20px;
+    }
+}
+
+/ Estilo para impressão */
+@media print {
+    header, nav, footer {
+        display: none;
+    }
+}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos de Super Nintendo</title>
+    <link rel="stylesheet" href="styles.css">
+    </style> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head> 
+
+<body>
+    <header>
+        <h1>Jogos de Super Nintendo</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="pagina2.html">Formulário</a></li>
+        </ul>
+    </nav>
+    <section class="jogos">
+        <img src="choro.jpg" />
+    </section>
+    <footer>
+        <p>&copy; 2024 Jogos de Super Nintendo</p>
+    </footer>
+
+    <header>
+        <h1>Formulário de Contato</h1>
+    </header>
+    <form>
+        <!-- Campos do formulário -->
+    </form>
+    <footer>
+        <p>&copy; 2024 Jogos de Super Nintendo</p>
+    </footer>
+</body>
+</html>
